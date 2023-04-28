@@ -11,7 +11,7 @@ class PredictPipeline:
     def predict(self,features):
         try:
             model_path='artifacts\model.pkl'
-            preprocessor_path='artifacts\preprocessor.pkl'
+            preprocessor_path='artifacts\proprocessor.pkl'
             print("PreprocessorPath"+preprocessor_path)
             print("model_path"+model_path)
             print("Before Loading")
